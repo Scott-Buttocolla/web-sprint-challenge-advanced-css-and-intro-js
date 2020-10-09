@@ -22,10 +22,10 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
-1. How would you describe acessibility on the web to someone new to programming?
-2. Talk about 3 different things you can do to ensure your website is accessible. 
-3. How would you explain the concept of a variable to someone new to programming?
-4. What is the purpose of using functions in code?
+1. How would you describe acessibility on the web to someone new to programming? Accessibility on the web breaks down into resolutions. By that I mean, Desktop, tablet, and phone screen sizes. Accesibilty allows a user to change devices and still see all the same content in a slightly different manner but the website information will still be there and not skewed all over the place or missing completly.
+2. Talk about 3 different things you can do to ensure your website is accessible.  Proper use of % for keeping items centered or spaced accordingly, flex box will react to different size resolutions and keep things in some order, ultimatly media queries are the correct method to make a responsive website so that the site can be seen in different resolutions with changes but all information is still present and in a pleasing format for the user.
+3. How would you explain the concept of a variable to someone new to programming? A variable is something that can change. You have the choice of var, let, or const. Var should never be used unless absolutly necessary as it can be changed at any point in time unknowingly and can be called repeateedtly which can break your code, const can not be reassigned or changed as it is a constant variable and should be used most often to allow for a stronger code. Let may be used and is used for loops as it will be reassigned to each incriment in a loop but can't be reassigned to a different term,.
+4. What is the purpose of using functions in code? Functions act as containers somewhat like in html and css but they contain something the computer has to due before generating a result. YOu can have complex math operations inside a function, input 2 parameters and behind the scenes your function will do all the long work but only reproduce the answer.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
