@@ -263,25 +263,15 @@ Create a function called `removeArtist` that takes two arguments:
  * 
  * Note that sucessfully invoking this function multiple times without refreshing your browser will continuously remove artists from the array until there are none left. If you refresh your browser, the data will reset.  
 */
-function removeArtist(array, index){
-  for(let i =0; i < array.length; i++){
-      if(array[i] === index){
-          array.splice(i, 1);
-          return array;
- }
-}
+function removeArtist(someList,index){
+  // for(let i =0; i < someList.length; i++){      
+          someList.splice(index, 1);
+          return someList.length; 
+ 
 }
 console.log(removeArtist(artists, 0));
 
-// ********************************************code below breaks the autograder, messes up task 4.
-// function removeArtist(index){
-//   for(let i =0; i < artists.length; i++){      
-//           artists.splice([i], 1);
-//           return artists; 
-//  }
-// }
-// console.log(removeArtist(0));
-// console.log(artists.length);
+
 /**
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Create a function called `addArtist` that can accept an object of information and add it to the artists array. Then, add a 21st artist to the array (you) with custom information!👩‍🎨👨‍🎨
