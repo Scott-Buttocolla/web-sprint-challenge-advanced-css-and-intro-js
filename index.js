@@ -261,11 +261,17 @@ Create a function called `removeArtist` that takes two arguments:
  * 
  * Note that sucessfully invoking this function multiple times without refreshing your browser will continuously remove artists from the array until there are none left. If you refresh your browser, the data will reset.  
 */
-function removeArtist(/*Your Code Here*/) {
-  /*Your Code Here*/
+function removeArtist(array, index){
+  for(let i =0; i < array.length; i++){
+      if(array[i] === index){
+          array.splice(i, 1);
+          return array;
+ }
 }
-   
+}
+console.log(removeArtist(artists, 0));
 
+// come back and fix, comes up undefined.
 /**
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Create a function called `addArtist` that can accept an object of information and add it to the artists array. Then, add a 21st artist to the array (you) with custom information!👩‍🎨👨‍🎨
@@ -280,10 +286,11 @@ bio: Add 1-2 sentences (or use lorem ipsum)
 
 At the end, this function should return the new array with information added"*/
 
-function addArtist(/*Your Code Here*/){
-  /*Your Code Here*/
-  }
-
+function addArtist(artists, id, name, years, genre, nationality, bio){
+  artists.push({id, name, years, genre, nationality, bio});
+  return artists;
+}
+console.log(addArtist(artists, 20, 'Scott', '1984 - current day', 'Abstract Realism', 'American', 'loreum ipsom' ));
   
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
