@@ -251,7 +251,6 @@ function get20s(yearsBornDied){
 }
 console.log(get20s(artistsCopy));
 
-// come back if time allows to fix. Pulls up Dali but not Kahlo
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Create a function called `removeArtist` that takes two arguments:
@@ -274,7 +273,15 @@ function removeArtist(array, index){
 }
 console.log(removeArtist(artists, 0));
 
-// come back and fix, comes up undefined.
+// ********************************************code below breaks the autograder, messes up task 4.
+// function removeArtist(index){
+//   for(let i =0; i < artists.length; i++){      
+//           artists.splice([i], 1);
+//           return artists; 
+//  }
+// }
+// console.log(removeArtist(0));
+// console.log(artists.length);
 /**
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Create a function called `addArtist` that can accept an object of information and add it to the artists array. Then, add a 21st artist to the array (you) with custom information!👩‍🎨👨‍🎨
