@@ -142,6 +142,9 @@ button:hover{
     nav a{
         margin: 0 10%;
     }
+    .title-container div{
+        background-size: 250%;
+    }
     .title-container div h1{
         font-size:2.2em;        
     }
@@ -170,5 +173,4 @@ button:hover{
         font-size: 1.25rem;
         width: 90%;
     }
-
 }
